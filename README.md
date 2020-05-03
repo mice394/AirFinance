@@ -2,7 +2,7 @@
 #### Members: Emily S, Andrew K, Jody J, Katherine C
 #### Product: AirFinance iOS App
 ### Table of Contents
-* [Overview of the 3 app features](Overview-of-the-3-app-features:)
+* [Overview of the 3 app features](#Overview-of-the-3-app-features:)
 ##### (Flow of app)
 * [App Launching Screen](#App-Launching-Screen)
 * [Sign In Screen (authentification error and authenticated)](#Sign-In-Screen)
