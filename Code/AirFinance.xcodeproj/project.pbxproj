@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE29062D2442AE54008F28FE /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE29062C2442AE54008F28FE /* Homepage.storyboard */; };
+		CE2906392442CE7E008F28FE /* homepageScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2906382442CE7E008F28FE /* homepageScreen.png */; };
+		CE29063B2442D4B8008F28FE /* resourcesScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29063A2442D4B8008F28FE /* resourcesScreen.png */; };
+		CE29063D2442DF20008F28FE /* accountsScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29063C2442DF20008F28FE /* accountsScreen.png */; };
+		CE2906442443BDCF008F28FE /* message1.png in Resources */ = {isa = PBXBuildFile; fileRef = CE29063F2443BDCE008F28FE /* message1.png */; };
+		CE2906452443BDCF008F28FE /* message3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2906402443BDCE008F28FE /* message3.png */; };
+		CE2906462443BDCF008F28FE /* message0.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2906412443BDCF008F28FE /* message0.png */; };
+		CE2906472443BDCF008F28FE /* message2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2906422443BDCF008F28FE /* message2.png */; };
+		CE2906492443BDDD008F28FE /* typing.gif in Resources */ = {isa = PBXBuildFile; fileRef = CE2906482443BDDD008F28FE /* typing.gif */; };
+		CE2A8CB924451E29001CC204 /* budgetOverviewScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8CB824451E29001CC204 /* budgetOverviewScreen.png */; };
+		CE2A8CBD24452734001CC204 /* ADD EXP.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8CBC24452734001CC204 /* ADD EXP.png */; };
+		CE2A8CBF2445273D001CC204 /* EDIT EXP.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8CBE2445273D001CC204 /* EDIT EXP.png */; };
+		CE2A8CC124452749001CC204 /* OG CHART.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8CC024452749001CC204 /* OG CHART.png */; };
+		CE2A8CC324453224001CC204 /* RESET BUD.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2A8CC224453224001CC204 /* RESET BUD.png */; };
+		CEFF4794243FBD0B00BB0D42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4793243FBD0B00BB0D42 /* AppDelegate.swift */; };
+		CEFF4796243FBD0B00BB0D42 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4795243FBD0B00BB0D42 /* SceneDelegate.swift */; };
+		CEFF4798243FBD0B00BB0D42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF4797243FBD0B00BB0D42 /* ViewController.swift */; };
+		CEFF479B243FBD0B00BB0D42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF4799243FBD0B00BB0D42 /* Main.storyboard */; };
+		CEFF479D243FBD0D00BB0D42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFF479C243FBD0D00BB0D42 /* Assets.xcassets */; };
+		CEFF47A0243FBD0D00BB0D42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFF479E243FBD0D00BB0D42 /* LaunchScreen.storyboard */; };
+		CEFF47AB243FBD0D00BB0D42 /* AirFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF47AA243FBD0D00BB0D42 /* AirFinanceTests.swift */; };
+		CEFF47B6243FBD0E00BB0D42 /* AirFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF47B5243FBD0E00BB0D42 /* AirFinanceUITests.swift */; };
+		CEFF47C8243FC75F00BB0D42 /* loadingScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF47C7243FC75F00BB0D42 /* loadingScreen.png */; };
+		CEFF47CA243FC85D00BB0D42 /* spinner.gif in Resources */ = {isa = PBXBuildFile; fileRef = CEFF47C9243FC85D00BB0D42 /* spinner.gif */; };
+		CEFF47CE243FCE8500BB0D42 /* gifadapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFF47CD243FCE8500BB0D42 /* gifadapter.swift */; };
+		CEFF47D2243FD58300BB0D42 /* SignInScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = CEFF47D1243FD58300BB0D42 /* SignInScreen.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEFF47A7243FBD0D00BB0D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF4788243FBD0B00BB0D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF478F243FBD0B00BB0D42;
+			remoteInfo = AirFinance;
+		};
+		CEFF47B2243FBD0E00BB0D42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEFF4788243FBD0B00BB0D42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEFF478F243FBD0B00BB0D42;
+			remoteInfo = AirFinance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE29062C2442AE54008F28FE /* Homepage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
+		CE2906382442CE7E008F28FE /* homepageScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homepageScreen.png; sourceTree = "<group>"; };
+		CE29063A2442D4B8008F28FE /* resourcesScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resourcesScreen.png; sourceTree = "<group>"; };
+		CE29063C2442DF20008F28FE /* accountsScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = accountsScreen.png; sourceTree = "<group>"; };
+		CE29063F2443BDCE008F28FE /* message1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message1.png; sourceTree = "<group>"; };
+		CE2906402443BDCE008F28FE /* message3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message3.png; sourceTree = "<group>"; };
+		CE2906412443BDCF008F28FE /* message0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message0.png; sourceTree = "<group>"; };
+		CE2906422443BDCF008F28FE /* message2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message2.png; sourceTree = "<group>"; };
+		CE2906482443BDDD008F28FE /* typing.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = typing.gif; sourceTree = "<group>"; };
+		CE2A8CB824451E29001CC204 /* budgetOverviewScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = budgetOverviewScreen.png; sourceTree = "<group>"; };
+		CE2A8CBC24452734001CC204 /* ADD EXP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ADD EXP.png"; sourceTree = "<group>"; };
+		CE2A8CBE2445273D001CC204 /* EDIT EXP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "EDIT EXP.png"; sourceTree = "<group>"; };
+		CE2A8CC024452749001CC204 /* OG CHART.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "OG CHART.png"; sourceTree = "<group>"; };
+		CE2A8CC224453224001CC204 /* RESET BUD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RESET BUD.png"; sourceTree = "<group>"; };
+		CEFF4790243FBD0B00BB0D42 /* AirFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF4793243FBD0B00BB0D42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFF4795243FBD0B00BB0D42 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEFF4797243FBD0B00BB0D42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFF479A243FBD0B00BB0D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFF479C243FBD0D00BB0D42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFF479F243FBD0D00BB0D42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFF47A1243FBD0D00BB0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF47A6243FBD0D00BB0D42 /* AirFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF47AA243FBD0D00BB0D42 /* AirFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFinanceTests.swift; sourceTree = "<group>"; };
+		CEFF47AC243FBD0D00BB0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF47B1243FBD0E00BB0D42 /* AirFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFF47B5243FBD0E00BB0D42 /* AirFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirFinanceUITests.swift; sourceTree = "<group>"; };
+		CEFF47B7243FBD0E00BB0D42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEFF47C7243FC75F00BB0D42 /* loadingScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadingScreen.png; sourceTree = "<group>"; };
+		CEFF47C9243FC85D00BB0D42 /* spinner.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = spinner.gif; sourceTree = "<group>"; };
+		CEFF47CD243FCE8500BB0D42 /* gifadapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifadapter.swift; sourceTree = "<group>"; };
+		CEFF47D1243FD58300BB0D42 /* SignInScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignInScreen.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFF478D243FBD0B00BB0D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47A3243FBD0D00BB0D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47AE243FBD0E00BB0D42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE2A8CB524450916001CC204 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF47C7243FC75F00BB0D42 /* loadingScreen.png */,
+				CEFF47C9243FC85D00BB0D42 /* spinner.gif */,
+				CEFF47D1243FD58300BB0D42 /* SignInScreen.png */,
+				CE2906382442CE7E008F28FE /* homepageScreen.png */,
+				CE29063C2442DF20008F28FE /* accountsScreen.png */,
+				CE29063A2442D4B8008F28FE /* resourcesScreen.png */,
+				CE2906412443BDCF008F28FE /* message0.png */,
+				CE29063F2443BDCE008F28FE /* message1.png */,
+				CE2906422443BDCF008F28FE /* message2.png */,
+				CE2906402443BDCE008F28FE /* message3.png */,
+				CE2906482443BDDD008F28FE /* typing.gif */,
+				CE2A8CB824451E29001CC204 /* budgetOverviewScreen.png */,
+				CE2A8CBC24452734001CC204 /* ADD EXP.png */,
+				CE2A8CBE2445273D001CC204 /* EDIT EXP.png */,
+				CE2A8CC024452749001CC204 /* OG CHART.png */,
+				CE2A8CC224453224001CC204 /* RESET BUD.png */,
+			);
+			path = Pictures;
+			sourceTree = "<group>";
+		};
+		CEFF4787243FBD0B00BB0D42 = {
+			isa = PBXGroup;
+			children = (
+				CEFF4792243FBD0B00BB0D42 /* AirFinance */,
+				CEFF47A9243FBD0D00BB0D42 /* AirFinanceTests */,
+				CEFF47B4243FBD0E00BB0D42 /* AirFinanceUITests */,
+				CEFF4791243FBD0B00BB0D42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFF4791243FBD0B00BB0D42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF4790243FBD0B00BB0D42 /* AirFinance.app */,
+				CEFF47A6243FBD0D00BB0D42 /* AirFinanceTests.xctest */,
+				CEFF47B1243FBD0E00BB0D42 /* AirFinanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFF4792243FBD0B00BB0D42 /* AirFinance */ = {
+			isa = PBXGroup;
+			children = (
+				CE2A8CB524450916001CC204 /* Pictures */,
+				CEFF4793243FBD0B00BB0D42 /* AppDelegate.swift */,
+				CEFF4795243FBD0B00BB0D42 /* SceneDelegate.swift */,
+				CEFF4797243FBD0B00BB0D42 /* ViewController.swift */,
+				CEFF4799243FBD0B00BB0D42 /* Main.storyboard */,
+				CE29062C2442AE54008F28FE /* Homepage.storyboard */,
+				CEFF47CD243FCE8500BB0D42 /* gifadapter.swift */,
+				CEFF479C243FBD0D00BB0D42 /* Assets.xcassets */,
+				CEFF479E243FBD0D00BB0D42 /* LaunchScreen.storyboard */,
+				CEFF47A1243FBD0D00BB0D42 /* Info.plist */,
+			);
+			path = AirFinance;
+			sourceTree = "<group>";
+		};
+		CEFF47A9243FBD0D00BB0D42 /* AirFinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF47AA243FBD0D00BB0D42 /* AirFinanceTests.swift */,
+				CEFF47AC243FBD0D00BB0D42 /* Info.plist */,
+			);
+			path = AirFinanceTests;
+			sourceTree = "<group>";
+		};
+		CEFF47B4243FBD0E00BB0D42 /* AirFinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEFF47B5243FBD0E00BB0D42 /* AirFinanceUITests.swift */,
+				CEFF47B7243FBD0E00BB0D42 /* Info.plist */,
+			);
+			path = AirFinanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFF478F243FBD0B00BB0D42 /* AirFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF47BA243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinance" */;
+			buildPhases = (
+				CEFF478C243FBD0B00BB0D42 /* Sources */,
+				CEFF478D243FBD0B00BB0D42 /* Frameworks */,
+				CEFF478E243FBD0B00BB0D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirFinance;
+			productName = AirFinance;
+			productReference = CEFF4790243FBD0B00BB0D42 /* AirFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEFF47A5243FBD0D00BB0D42 /* AirFinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF47BD243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinanceTests" */;
+			buildPhases = (
+				CEFF47A2243FBD0D00BB0D42 /* Sources */,
+				CEFF47A3243FBD0D00BB0D42 /* Frameworks */,
+				CEFF47A4243FBD0D00BB0D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF47A8243FBD0D00BB0D42 /* PBXTargetDependency */,
+			);
+			name = AirFinanceTests;
+			productName = AirFinanceTests;
+			productReference = CEFF47A6243FBD0D00BB0D42 /* AirFinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEFF47B0243FBD0E00BB0D42 /* AirFinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFF47C0243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinanceUITests" */;
+			buildPhases = (
+				CEFF47AD243FBD0E00BB0D42 /* Sources */,
+				CEFF47AE243FBD0E00BB0D42 /* Frameworks */,
+				CEFF47AF243FBD0E00BB0D42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEFF47B3243FBD0E00BB0D42 /* PBXTargetDependency */,
+			);
+			name = AirFinanceUITests;
+			productName = AirFinanceUITests;
+			productReference = CEFF47B1243FBD0E00BB0D42 /* AirFinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFF4788243FBD0B00BB0D42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = InnovationChallenge;
+				TargetAttributes = {
+					CEFF478F243FBD0B00BB0D42 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					CEFF47A5243FBD0D00BB0D42 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEFF478F243FBD0B00BB0D42;
+					};
+					CEFF47B0243FBD0E00BB0D42 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = CEFF478F243FBD0B00BB0D42;
+					};
+				};
+			};
+			buildConfigurationList = CEFF478B243FBD0B00BB0D42 /* Build configuration list for PBXProject "AirFinance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFF4787243FBD0B00BB0D42;
+			productRefGroup = CEFF4791243FBD0B00BB0D42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFF478F243FBD0B00BB0D42 /* AirFinance */,
+				CEFF47A5243FBD0D00BB0D42 /* AirFinanceTests */,
+				CEFF47B0243FBD0E00BB0D42 /* AirFinanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFF478E243FBD0B00BB0D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2A8CBF2445273D001CC204 /* EDIT EXP.png in Resources */,
+				CE2A8CBD24452734001CC204 /* ADD EXP.png in Resources */,
+				CE29062D2442AE54008F28FE /* Homepage.storyboard in Resources */,
+				CE2906442443BDCF008F28FE /* message1.png in Resources */,
+				CEFF47A0243FBD0D00BB0D42 /* LaunchScreen.storyboard in Resources */,
+				CE2906462443BDCF008F28FE /* message0.png in Resources */,
+				CE2906492443BDDD008F28FE /* typing.gif in Resources */,
+				CEFF479D243FBD0D00BB0D42 /* Assets.xcassets in Resources */,
+				CEFF47CA243FC85D00BB0D42 /* spinner.gif in Resources */,
+				CE2A8CB924451E29001CC204 /* budgetOverviewScreen.png in Resources */,
+				CEFF47C8243FC75F00BB0D42 /* loadingScreen.png in Resources */,
+				CE2906452443BDCF008F28FE /* message3.png in Resources */,
+				CE29063B2442D4B8008F28FE /* resourcesScreen.png in Resources */,
+				CE2A8CC124452749001CC204 /* OG CHART.png in Resources */,
+				CEFF479B243FBD0B00BB0D42 /* Main.storyboard in Resources */,
+				CE29063D2442DF20008F28FE /* accountsScreen.png in Resources */,
+				CEFF47D2243FD58300BB0D42 /* SignInScreen.png in Resources */,
+				CE2906392442CE7E008F28FE /* homepageScreen.png in Resources */,
+				CE2A8CC324453224001CC204 /* RESET BUD.png in Resources */,
+				CE2906472443BDCF008F28FE /* message2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47A4243FBD0D00BB0D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47AF243FBD0E00BB0D42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFF478C243FBD0B00BB0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF4798243FBD0B00BB0D42 /* ViewController.swift in Sources */,
+				CEFF4794243FBD0B00BB0D42 /* AppDelegate.swift in Sources */,
+				CEFF47CE243FCE8500BB0D42 /* gifadapter.swift in Sources */,
+				CEFF4796243FBD0B00BB0D42 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47A2243FBD0D00BB0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF47AB243FBD0D00BB0D42 /* AirFinanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEFF47AD243FBD0E00BB0D42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFF47B6243FBD0E00BB0D42 /* AirFinanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEFF47A8243FBD0D00BB0D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF478F243FBD0B00BB0D42 /* AirFinance */;
+			targetProxy = CEFF47A7243FBD0D00BB0D42 /* PBXContainerItemProxy */;
+		};
+		CEFF47B3243FBD0E00BB0D42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEFF478F243FBD0B00BB0D42 /* AirFinance */;
+			targetProxy = CEFF47B2243FBD0E00BB0D42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEFF4799243FBD0B00BB0D42 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFF479A243FBD0B00BB0D42 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFF479E243FBD0D00BB0D42 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFF479F243FBD0D00BB0D42 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFF47B8243FBD0E00BB0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFF47B9243FBD0E00BB0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFF47BB243FBD0E00BB0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFF47BC243FBD0E00BB0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEFF47BE243FBD0E00BB0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFinance.app/AirFinance";
+			};
+			name = Debug;
+		};
+		CEFF47BF243FBD0E00BB0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirFinance.app/AirFinance";
+			};
+			name = Release;
+		};
+		CEFF47C1243FBD0E00BB0D42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFinance;
+			};
+			name = Debug;
+		};
+		CEFF47C2243FBD0E00BB0D42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AirFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.AirFinance.AirFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AirFinance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFF478B243FBD0B00BB0D42 /* Build configuration list for PBXProject "AirFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF47B8243FBD0E00BB0D42 /* Debug */,
+				CEFF47B9243FBD0E00BB0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF47BA243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF47BB243FBD0E00BB0D42 /* Debug */,
+				CEFF47BC243FBD0E00BB0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF47BD243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF47BE243FBD0E00BB0D42 /* Debug */,
+				CEFF47BF243FBD0E00BB0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFF47C0243FBD0E00BB0D42 /* Build configuration list for PBXNativeTarget "AirFinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF47C1243FBD0E00BB0D42 /* Debug */,
+				CEFF47C2243FBD0E00BB0D42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFF4788243FBD0B00BB0D42 /* Project object */;
+}
