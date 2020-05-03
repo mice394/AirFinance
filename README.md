@@ -2,7 +2,7 @@
 #### Members: Emily S, Andrew K, Jody J, Katherine C
 #### Product: AirFinance iOS App
 ### Table of Contents
-* [Overview of the 3 app features](#Overview-of-the-3-app-features:)
+* [Overview of the 3 app features](#Overview-of-the-3-app-features)
 ##### (Flow of app)
 * [App Launching Screen](#App-Launching-Screen)
 * [Sign In Screen (authentification error and authenticated)](#Sign-In-Screen)
@@ -11,7 +11,7 @@
 * [Resources Screen (including linking of news article to Safari)](#Resources-Screen)
 * [Overall app (walk through of the app excluding demo of individual features)](#Overall-App)
 
-### Overview of the 3 app features:
+### Overview of the 3 app features
 
 1. AI chatbot (JAKE-TRON)
   - Purpose: enables users to interact conversationally and quickly with app to learn further about their finances and the resources provided to them
