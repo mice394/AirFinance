@@ -1,6 +1,8 @@
 # W2020_Team23
 #### Members: Emily S, Andrew K, Jody J, Katherine C
 #### Product: AirFinance iOS App
+#### Challenge Statement
+Using new technologies, how might we better engage and build meaningful relationships with international students during their time in Canada?
 ### Table of Contents
 * [Overview of the 3 app features](#Overview-of-the-3-app-features)
 ##### (Flow of app)
