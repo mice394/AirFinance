@@ -4,7 +4,7 @@
 ### Table of Contents
 - Overview of the 3 app features
 ##### (Flow of app)
-- App Launching Screen
+* [App Launching Screen](#App-Launching-Screen)
 - Sign In Screen (authentification error and authenticated)
 - Home/Initial Screen
 - Accounts Screen (including AI chatbot (JAKE-TRON) and Budgeting Overview)
