@@ -21,32 +21,32 @@
   - Purpose: allows user to quickly keep track of their budget by being able to set value that represents their incoming revenue for a specific period and able to add expenses during the provided period. The relationship between their expenses and budget is reflected on a live bar graph.
 
 ### App Launching Screen
-| ![launch screen](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/launch.gif) |
+| ![launch screen](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/launch.gif) |
 |:-------:|
 
 ### Sign In Screen
 |**Authentification Error**|**Authenticated**|
 |:-------:|:-------:|
-| ![Authentification Error](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/authenticationerror.gif) | ![authenticated](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/authentificationcorrect.gif) |
+| ![Authentification Error](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/authenticationerror.gif) | ![authenticated](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/authentificationcorrect.gif) |
 
 ###  Home/Initial Screen
-| <img src="https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/homepage.png" width="300"> |
+| <img src="https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/homepage.png" width="300"> |
 |:-------:|
 
 ### Accounts Screen
 |**Accounts Page**|**JAKE-TRON (AI Chat Bot) in action**|
 |:-------:|:-------:|
-| <img src="https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/accountspage.png" width="300"> | ![JAKE-TRON"](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/JAKE-TRON.gif) |
+| <img src="https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/accountspage.png" width="300"> | ![JAKE-TRON"](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/JAKE-TRON.gif) |
 
 |**Budget Overview**|
 |:-------:|
-| ![Budget Overview](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/Budget.gif) |
+| ![Budget Overview](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/Budget.gif) |
 
 ### Resources Screen
 |**Resources Page**|**Linking of news article in action**|
 |:-------:|:-------:|
-| <img src="https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/resourcespage.png" width="300"> | ![news article linking](https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/GIFs%20and%20PNGs/safariarticle.gif) |
+| <img src="https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/resourcespage.png" width="300"> | ![news article linking](https://github.com/mice394/AirFinance/blob/master/GIFs%20and%20PNGs/safariarticle.gif) |
 
 ### Overall App
-https://rbcgithub.fg.rbc.com/AIH0/W2020_Team23/blob/master/Demo/Overview.mov
+https://github.com/mice394/AirFinance/blob/master/Demo/Overview.mov
 # AirFinance
