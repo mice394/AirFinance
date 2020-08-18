@@ -1,17 +1,19 @@
 # W2020_Team23
 #### Members: Emily S, Andrew K, Jody J, Katherine C
 #### Product: AirFinance iOS App
+#### Challenge Statement
+Using new technologies, how might we better engage and build meaningful relationships with international students during their time in Canada?
 ### Table of Contents
-- Overview of the 3 app features
+* [Overview of the 3 app features](#Overview-of-the-3-app-features)
 ##### (Flow of app)
-- App Launching Screen
-- Sign In Screen (authentification error and authenticated)
-- Home/Initial Screen
-- Accounts Screen (including AI chatbot (JAKE-TRON) and Budgeting Overview)
-- Resources Screen (including linking of news article to Safari)
-- Overall app (walk through of the app excluding demo of individual features)
+* [App Launching Screen](#App-Launching-Screen)
+* [Sign In Screen (authentification error and authenticated)](#Sign-In-Screen)
+* [Home/Initial Screen](#Home/Initial-Screen)
+* [Accounts Screen (including AI chatbot (JAKE-TRON) and Budgeting Overview)](#Accounts-Screen)
+* [Resources Screen (including linking of news article to Safari)](#Resources-Screen)
+* [Overall app (walk through of the app excluding demo of individual features)](#Overall-App)
 
-### Overview of the 3 app features:
+### Overview of the 3 app features
 
 1. AI chatbot (JAKE-TRON)
   - Purpose: enables users to interact conversationally and quickly with app to learn further about their finances and the resources provided to them
@@ -49,4 +51,3 @@
 
 ### Overall App
 https://github.com/mice394/AirFinance/blob/master/Demo/Overview.mov
-# AirFinance
